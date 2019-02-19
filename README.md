@@ -31,7 +31,9 @@ Import volcanoes.json into your mongo database.  Do this from a command prompt n
 ```
 
 Use the MongoDB shell to query the volcanoes database and retrieve the following records:
+
 --We will do these together
+
  1. Find the volcanoes that erupted in the 1970s.
  2. Find the names of the volcanoes that had an eruption with a Volcanic Explosivity Index (VEI) of 7 or higher.
  3. Find the eruption with the highest number of recorded deaths.
