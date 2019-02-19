@@ -33,18 +33,24 @@ Import volcanoes.json into your mongo database.  Do this from a command prompt n
 Use the MongoDB shell to query the volcanoes database and retrieve the following records:
 --We will do these together
  1. Find the volcanoes that erupted in the 1970s.
- 2. Find the names of the volcanoes that had an eruption with a Volcanic Explosivity        Index (VEI) of 7 or higher.
+ 2. Find the names of the volcanoes that had an eruption with a Volcanic Explosivity Index (VEI) of 7 or higher.
  3. Find the eruption with the highest number of recorded deaths.
  4. Find the percentage of eruptions that caused mudflows (Agent_Code "M" for Mudflow).
  5. Find the most common type of volcano in the set.
 
 --On Your Own
  6. Find the eruptions that occured in your home country.
+ 
  7. Find the average elevation of all eruptions.
+ 
  8. Find a list of the types of volcanoes.
- 9. Find the percentage of eruptions that occurred in the Northern Hemisphere
+ 
+ 9. Find the percentage of eruptions that occurred in the Northern Hemisphere.
+ 
 10. Find the names of eruptions that occurred after 1900, that did NOT cause a mudflow, happened in the Southern Hemisphere, and had a VEI of 5.
+
 11. Return the names of eruptions that occurred at or above an elevation passed in as an argument.
+
 12. Return the agents of death for the ten most deadly eruptions.
 
 
