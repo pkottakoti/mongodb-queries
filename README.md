@@ -8,7 +8,7 @@
 
 Import volcanoes.json into your mongo database.  Do this from a command prompt not the mongo shell.  Change directories so that you are in the mongodb bin folder.  There should be an executable named mongoimport.exe.  From this bin directory, execute the following command
 
-`mongoimport --db geo --collection volcanoes < {pathway to volcanoes.json} --jsonArray
+`mongoimport --db geo --collection volcanoes < {pathway to volcanoes.json} --jsonArray`
 
 `volcanoes.json` contains a data set of 804 historical volcanic eruptions.  Below is a sample of the data for each eruption.
 
