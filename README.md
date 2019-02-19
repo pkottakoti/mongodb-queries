@@ -9,7 +9,7 @@
 
 * Start MongoDB if it isn't already running by launching the executable mongod.exe. It should be located in the /bin directory of your local MongoDB installation.
 * Add Azure Cosmos DB extention to VS Code
-* Attach the running version of MongoDB from the Azure Cosmos pane.  Instructions for how to do this can be found in the extention tab or at https://code.visualstudio.com/docs/azure/mongodb
+* Attach the running version of MongoDB from the Azure Cosmos pane in VS Code.  Instructions for how to do this can be found in the extention tab or at https://code.visualstudio.com/docs/azure/mongodb
 * Import volcanoes.json into your mongo database.  This can be done by right-clicking on the connected database in the Azure Cosmos pane.  You can also do this from a command prompt, but it is more difficult.  Change directories so that you are in the mongodb bin folder.  There should be an executable named mongoimport.exe.  From this bin directory, execute the following command:
 
                  `mongoimport --db geo --collection volcanoes < {pathway to volcanoes.json} --jsonArray`
