@@ -1,8 +1,8 @@
-# Higher-Order Functions and JSON
+# Querying a Document Database
 
 ## Objectives
 
-* Execute queries on a mongodb document collection.
+* Execute queries on a Mongodb document collection.
 
 ## Instructions
 
