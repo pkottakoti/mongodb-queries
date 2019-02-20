@@ -51,8 +51,9 @@ Use the Azure Cosmos DB extention in VS Code to query the volcanoes database and
  8. Find a list of the types of volcanoes.
  9. Find the percentage of eruptions that occurred in the Northern Hemisphere.
 10. Find the names of eruptions that occurred after 1900, that did NOT cause a mudflow, happened in the Southern Hemisphere, and had a VEI of 5.
-11. Return the names of eruptions that occurred at or above an elevation passed in as an argument.
+11. Return the names of eruptions that occurred at or above an elevation of 4000 km.
 12. Return the agents of death for the ten most deadly eruptions.
+13. Find the volcano that has killed the most people from all of its eruptions combined.
 
 
 ### References
